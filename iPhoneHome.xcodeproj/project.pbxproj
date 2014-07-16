@@ -1,0 +1,193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D90F56B90C6719EF007AE76B /* iPhoneHomeApp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = iPhoneHomeApp.m; sourceTree = "<group>"; };
+		D90F56BA0C6719EF007AE76B /* iPhoneHomeApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iPhoneHomeApp.h; sourceTree = "<group>"; };
+		D90F56E20C671CD1007AE76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Developer/SDKs/iPhone.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D90F56E30C671CD1007AE76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Developer/SDKs/iPhone.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = "<absolute>"; };
+		D92591D70C6B431100BBDBBC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D9C1849B0C6B467300A7383F /* iPhoneHome_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iPhoneHome_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D90F56BA0C6719EF007AE76B /* iPhoneHomeApp.h */,
+				D90F56B90C6719EF007AE76B /* iPhoneHomeApp.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iPhoneHome */ = {
+			isa = PBXGroup;
+			children = (
+				D92591D70C6B431100BBDBBC /* Makefile */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = iPhoneHome;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1849B0C6B467300A7383F /* iPhoneHome_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90F56E20C671CD1007AE76B /* Foundation.framework */,
+				D90F56E30C671CD1007AE76B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D92591D10C6B42C700BBDBBC /* iPhoneHome */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "iPhoneHome" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = iPhoneHome;
+			passBuildSettingsInEnvironment = 1;
+			productName = iPhoneHome;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhoneHome" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iPhoneHome */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92591D10C6B42C700BBDBBC /* iPhoneHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm;
+				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/iPhone.sdk;
+				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm;
+				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/iPhone.sdk;
+				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+			};
+			name = Release;
+		};
+		D92591D50C6B42CE00BBDBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = iPhoneHome;
+			};
+			name = Debug;
+		};
+		D92591D60C6B42CE00BBDBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = iPhoneHome;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhoneHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "iPhoneHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92591D50C6B42CE00BBDBBC /* Debug */,
+				D92591D60C6B42CE00BBDBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
